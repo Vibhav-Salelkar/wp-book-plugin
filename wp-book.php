@@ -18,4 +18,4 @@
   include('includes/scripts.php');         //This controls all js/css
   include('includes/display-functions.php'); //outputs content
   include('includes/admin-page.php');
-  include('includes/book-actions.php');
+  include('includes/taxonomy-actions.php');

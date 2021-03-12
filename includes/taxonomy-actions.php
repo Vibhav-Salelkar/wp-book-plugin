@@ -20,14 +20,14 @@ function wb_register_taxonomy_book() {
     $labels = array(
         'name'              => _x( 'Book Category', 'taxonomy general name' ),
         'singular_name'     => _x( 'Book', 'taxonomy singular name' ),
-        'search_items'      => __( 'Search Books' ),
-        'all_items'         => __( 'All Books' ),
-        'parent_item'       => __( 'Parent Book' ),
-        'parent_item_colon' => __( 'Parent Book:' ),
-        'edit_item'         => __( 'Edit Book' ),
-        'update_item'       => __( 'Update Book' ),
-        'add_new_item'      => __( 'Add New Book' ),
-        'new_item_name'     => __( 'New Book Name' ),
+        'search_items'      => __( 'Search Book Categories' ),
+        'all_items'         => __( 'All Book Categories' ),
+        'parent_item'       => __( 'Parent Book Category' ),
+        'parent_item_colon' => __( 'Parent Book Category:' ),
+        'edit_item'         => __( 'Edit Book Category' ),
+        'update_item'       => __( 'Update Book Category' ),
+        'add_new_item'      => __( 'Add New Book Category' ),
+        'new_item_name'     => __( 'New Book Category Name' ),
         'menu_name'         => __( 'Book' ),
     );
     $args   = array(
