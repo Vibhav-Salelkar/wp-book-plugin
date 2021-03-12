@@ -19,3 +19,4 @@
   include('includes/display-functions.php'); //outputs content
   include('includes/admin-page.php');
   include('includes/taxonomy-actions.php');
+  include('includes/meta-actions.php');
